@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.GetStartedActivity"
+    android:background="@drawable/thamel"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:paddingBottom="60dp"
+        android:paddingHorizontal="40dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#272727"
+                android:textSize="28dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Heading towards a"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#272727"
+                android:textSize="28dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="smarter and stronger city"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#272727"
+                android:textSize="18dp"
+                android:text="Find social happenings like never before"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+        <Button
+            android:id="@+id/mainBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Explore"
+            android:layout_marginHorizontal="25dp"
+            android:background="@drawable/shape_circular_rectangle"
+            android:backgroundTint="#272727"
+            tools:ignore="MissingConstraints"
+            android:fontFamily="sans-serif-condensed"
+            android:textAllCaps="false"
+            />
+    </LinearLayout>
+</LinearLayout>
